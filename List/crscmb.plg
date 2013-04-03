@@ -1,0 +1,243 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\WalkieTalkie\GUI\ZLGGUI\ZLGGUI_OS_EX1\RVMDK\UCOS.uvproj
+Project File Date:  04/01/2013
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(82): warning:  #111-D: statement is unreachable
+..\User\main.c(132): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "sys_timeout_handler"
+compiling UASRT_Isr.c...
+compiling AppTask.c...
+..\User\..\User\AppTask.h(22): warning:  #1-D: last line of file ends without a newline
+..\User\AppTask.c(27): warning:  #177-D: variable "Scheld" was declared but never referenced
+..\User\AppTask.c(56): warning:  #167-D: argument of type "volatile INT8U *" is incompatible with parameter of type "INT8U *"
+..\User\AppTask.c(91): warning:  #167-D: argument of type "volatile INT8U *" is incompatible with parameter of type "INT8U *"
+..\User\AppTask.c(84): warning:  #550-D: variable "pAppMsg" was set but never used
+compiling KEY.C...
+..\User\KEY_MN\KEY.C(347): warning:  #111-D: statement is unreachable
+compiling GuiProc.c...
+..\User\GuiProc.c(18): warning:  #223-D: function "GUI_Initialize" declared implicitly
+..\User\GuiProc.c(19): warning:  #223-D: function "GUI_SetColor" declared implicitly
+..\User\GuiProc.c(20): warning:  #223-D: function "DispLog" declared implicitly
+..\User\GuiProc.c(21): warning:  #223-D: function "RunMenuDemo" declared implicitly
+compiling SimKeyLayer.c...
+..\User\SimKeyLayer.c(30): warning:  #177-D: variable "os_err" was declared but never referenced
+compiling Menu_test.c...
+..\User\..//User//KeyValDefine.h(25): warning:  #1-D: last line of file ends without a newline
+..\User\Menu_test.c(13): warning:  #14-D: extra text after expected end of preprocessing directive
+..\User\..//ZLG_GUI//LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\User\..//ZLG_GUI//GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\User\..//ZLG_GUI//FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\User\..//ZLG_GUI//FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\User\..//ZLG_GUI//FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\User\..//ZLG_GUI//FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\User\..//ZLG_GUI//WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\User\..//ZLG_GUI//SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+..\User\Menu_test.c(39): warning:  #177-D: variable "i" was declared but never referenced
+..\User\Menu_test.c(41): warning:  #177-D: variable "key_bak" was declared but never referenced
+..\User\Menu_test.c(123): warning:  #223-D: function "GUI_RecDataFill" declared implicitly
+..\User\Menu_test.c(209): warning:  #223-D: function "GUI_MenuDraw" declared implicitly
+..\User\Menu_test.c(265): warning:  #1-D: last line of file ends without a newline
+..\User\Menu_test.c(109): warning:  #177-D: variable "p" was declared but never referenced
+..\User\Menu_test.c(113): warning:  #177-D: variable "select" was declared but never referenced
+..\User\Menu_test.c(113): warning:  #177-D: variable "bak" was declared but never referenced
+compiling Command.c...
+..\Command\Command.c(153): warning:  #223-D: function "abs" declared implicitly
+..\Command\Command.c(201): warning:  #1-D: last line of file ends without a newline
+compiling CommandParse.c...
+compiling os_core.c...
+compiling os_cpu_c.c...
+compiling os_dbg.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+assembling os_cpu_a.asm...
+compiling os_api.c...
+compiling GPIO.c...
+compiling hal.c...
+compiling nvic.C...
+compiling RCC.c...
+compiling stm32f10x_it.c...
+..\Hal\stm32f10x_it.c(662): warning:  #177-D: variable "i" was declared but never referenced
+..\Hal\stm32f10x_it.c(837): warning:  #1295-D: Deprecated declaration UsartMainIsrFun - give arg types
+..\Hal\stm32f10x_it.c(872): warning:  #1295-D: Deprecated declaration UsartMainIsrFun - give arg types
+compiling USART.c...
+compiling Timer.c...
+compiling Audio.c...
+..\Hal\Audio.c(57): warning:  #1-D: last line of file ends without a newline
+compiling LED.c...
+compiling debug.c...
+compiling printf.c...
+..\Logger\printf.c(132): warning:  #1293-D: assignment in condition
+..\Logger\printf.c(143): warning:  #1293-D: assignment in condition
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+assembling startup_stm32f10x_hd.s...
+compiling ConvertColor.c...
+..\ZLG_GUI\LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\ConvertColor.c(245): warning:  #1-D: last line of file ends without a newline
+compiling font5_7.c...
+..\ZLG_GUI\LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+compiling FONT8_8.C...
+..\ZLG_GUI\LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+compiling FONT24_32.C...
+..\ZLG_GUI\LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+compiling GUI_BASIC.C...
+..\ZLG_GUI\LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.C(1206): warning:  #111-D: statement is unreachable
+compiling GUI_StockC.C...
+..\ZLG_GUI\LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_StockC.C(73): warning:  #1-D: last line of file ends without a newline
+compiling guilcddriver.c...
+..\ZLG_GUI\LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\guilcddriver.c(220): warning:  #1295-D: Deprecated declaration Initial_Lcd - give arg types
+..\ZLG_GUI\guilcddriver.c(261): warning:  #223-D: function "Transfer_command" declared implicitly
+..\ZLG_GUI\guilcddriver.c(266): warning:  #223-D: function "Transfer_data" declared implicitly
+..\ZLG_GUI\guilcddriver.c(255): warning:  #550-D: variable "addr" was set but never used
+..\ZLG_GUI\guilcddriver.c(475): warning:  #177-D: variable "bak" was declared but never referenced
+compiling jlxlcddriver.c...
+..\ZLG_GUI\jlxlcddriver.c(71): warning:  #1295-D: Deprecated declaration DisplayGraphic1 - give arg types
+..\ZLG_GUI\jlxlcddriver.c(72): warning:  #1295-D: Deprecated declaration Initial_Lcd - give arg types
+..\ZLG_GUI\jlxlcddriver.c(73): warning:  #1295-D: Deprecated declaration clear_screen - give arg types
+..\ZLG_GUI\jlxlcddriver.c(74): warning:  #1295-D: Deprecated declaration Switch - give arg types
+..\ZLG_GUI\jlxlcddriver.c(80): warning:  #177-D: variable "i" was declared but never referenced
+..\ZLG_GUI\jlxlcddriver.c(80): warning:  #177-D: variable "j" was declared but never referenced
+..\ZLG_GUI\jlxlcddriver.c(80): warning:  #177-D: variable "k" was declared but never referenced
+..\ZLG_GUI\jlxlcddriver.c(228): warning:  #177-D: label "repeat" was declared but never referenced
+compiling loadbit.c...
+..\ZLG_GUI\LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+compiling menu.c...
+..\ZLG_GUI\LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\menu.c(71): warning:  #177-D: variable "mwin" was declared but never referenced
+..\ZLG_GUI\menu.c(277): warning:  #940-D: missing return statement at end of non-void function "GUI_SMenuDraw"
+..\ZLG_GUI\menu.c(420): warning:  #940-D: missing return statement at end of non-void function "GUI_MenuDraw"
+..\ZLG_GUI\menu.c(429): warning:  #940-D: missing return statement at end of non-void function "GUI_HideDraw"
+..\ZLG_GUI\menu.c(597): warning:  #940-D: missing return statement at end of non-void function "GUI_FullClient"
+compiling spline.c...
+..\ZLG_GUI\LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+compiling windows.c...
+..\ZLG_GUI\LCDDRIVE.H(130): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\GUI_BASIC.H(221): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT_MACRO.H(270): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT5_7.H(49): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT8_8.H(52): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\FONT24_32.H(23): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\WINDOWS.H(79): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\SPLINE.H(84): warning:  #1-D: last line of file ends without a newline
+..\ZLG_GUI\windows.c(36): warning:  #940-D: missing return statement at end of non-void function "GUI_RecDataFill"
+..\ZLG_GUI\windows.c(16): warning:  #177-D: variable "R_Title" was declared but never referenced
+..\ZLG_GUI\windows.c(16): warning:  #177-D: variable "R_Client" was declared but never referenced
+..\ZLG_GUI\windows.c(16): warning:  #177-D: variable "R_State" was declared but never referenced
+..\ZLG_GUI\windows.c(17): warning:  #177-D: variable "xx" was declared but never referenced
+..\ZLG_GUI\windows.c(17): warning:  #177-D: variable "yy" was declared but never referenced
+..\ZLG_GUI\windows.c(17): warning:  #177-D: variable "width" was declared but never referenced
+..\ZLG_GUI\windows.c(17): warning:  #177-D: variable "hight" was declared but never referenced
+..\ZLG_GUI\windows.c(44): warning:  #940-D: missing return statement at end of non-void function "GUI_FullTitleRec"
+..\ZLG_GUI\windows.c(50): warning:  #940-D: missing return statement at end of non-void function "GUI_FullClientRec"
+linking...
+Program Size: Code=17202 RO-data=1414 RW-data=804 ZI-data=14268  
+FromELF: creating hex file...
+"..\List\crscmb.axf" - 0 Error(s), 158 Warning(s).

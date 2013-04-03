@@ -1,0 +1,111 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (Target 1), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(USER),1,0,0
+GRPOPT 2,(Command),0,0,0
+GRPOPT 3,(UCOSII),0,0,0
+GRPOPT 4,(HAL),0,0,0
+GRPOPT 5,(Logger),0,0,0
+GRPOPT 6,(STM32Lib),0,0,0
+
+OPTFFF 1,1,1,922746880,0,0,0,0,<..\User\main.c><main.c> { 44,0,0,0,2,0,0,0,3,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,22,0,0,0,29,0,0,0,237,3,0,0,13,1,0,0 }
+OPTFFF 1,2,1,671088640,0,0,0,0,<..\User\UASRT_Isr.c><UASRT_Isr.c> 
+OPTFFF 1,3,1,33554432,0,0,0,0,<..\User\AppTask.c><AppTask.c> 
+OPTFFF 1,4,1,0,0,0,0,0,<..\User\KEY_MN\KEY.C><KEY.C> 
+OPTFFF 2,5,1,0,0,0,0,0,<..\Command\Command.c><Command.c> 
+OPTFFF 2,6,1,0,0,0,0,0,<..\Command\CommandParse.c><CommandParse.c> 
+OPTFFF 3,7,1,0,0,0,0,0,<..\UCOSII\os_core.c><os_core.c> 
+OPTFFF 3,8,1,0,0,0,0,0,<..\UCOSII\os_cpu_c.c><os_cpu_c.c> 
+OPTFFF 3,9,1,0,0,0,0,0,<..\UCOSII\os_dbg.c><os_dbg.c> 
+OPTFFF 3,10,1,0,0,0,0,0,<..\UCOSII\os_flag.c><os_flag.c> 
+OPTFFF 3,11,1,0,0,0,0,0,<..\UCOSII\os_mbox.c><os_mbox.c> 
+OPTFFF 3,12,1,0,0,0,0,0,<..\UCOSII\os_mem.c><os_mem.c> 
+OPTFFF 3,13,1,0,0,0,0,0,<..\UCOSII\os_mutex.c><os_mutex.c> 
+OPTFFF 3,14,1,0,0,0,0,0,<..\UCOSII\os_q.c><os_q.c> 
+OPTFFF 3,15,1,0,0,0,0,0,<..\UCOSII\os_sem.c><os_sem.c> 
+OPTFFF 3,16,1,0,0,0,0,0,<..\UCOSII\os_task.c><os_task.c> 
+OPTFFF 3,17,1,0,0,0,0,0,<..\UCOSII\os_time.c><os_time.c> 
+OPTFFF 3,18,1,0,0,0,0,0,<..\UCOSII\os_tmr.c><os_tmr.c> 
+OPTFFF 3,19,5,0,0,0,0,0,<..\UCOSII\os_cfg.h><os_cfg.h> 
+OPTFFF 3,20,5,0,0,0,0,0,<..\UCOSII\os_cpu.h><os_cpu.h> 
+OPTFFF 3,21,2,0,0,0,0,0,<..\UCOSII\os_cpu_a.asm><os_cpu_a.asm> 
+OPTFFF 3,22,5,0,0,0,0,0,<..\UCOSII\ucos_ii.h><ucos_ii.h> 
+OPTFFF 3,23,1,0,0,0,0,0,<..\UCOSII\API\os_api.c><os_api.c> 
+OPTFFF 4,24,1,0,0,0,0,0,<..\Hal\GPIO.c><GPIO.c> 
+OPTFFF 4,25,1,0,0,0,0,0,<..\Hal\hal.c><hal.c> 
+OPTFFF 4,26,1,0,0,0,0,0,<..\Hal\nvic.C><nvic.C> 
+OPTFFF 4,27,1,0,0,0,0,0,<..\Hal\RCC.c><RCC.c> 
+OPTFFF 4,28,1,0,0,0,0,0,<..\Hal\stm32f10x_it.c><stm32f10x_it.c> 
+OPTFFF 4,29,1,0,0,0,0,0,<..\Hal\USART.c><USART.c> 
+OPTFFF 4,30,1,33554432,0,0,0,0,<..\Hal\CML.c><CML.c> 
+OPTFFF 4,31,1,0,0,0,0,0,<..\Hal\Timer.c><Timer.c> 
+OPTFFF 5,32,1,0,0,0,0,0,<..\Logger\debug.c><debug.c> 
+OPTFFF 5,33,5,0,0,0,0,0,<..\Logger\Debug.h><Debug.h> 
+OPTFFF 5,34,5,0,0,0,0,0,<..\Logger\err.h><err.h> 
+OPTFFF 5,35,1,0,0,0,0,0,<..\Logger\Log.c><Log.c> 
+OPTFFF 5,36,1,0,0,0,0,0,<..\Logger\printf.c><printf.c> 
+OPTFFF 5,37,5,0,0,0,0,0,<..\Logger\printf.h><printf.h> 
+OPTFFF 6,38,1,0,0,0,0,0,<..\STM32lib\stm32f10x_sdio.c><stm32f10x_sdio.c> 
+OPTFFF 6,39,1,0,0,0,0,0,<..\STM32lib\stm32f10x_spi.c><stm32f10x_spi.c> 
+OPTFFF 6,40,1,0,0,0,0,0,<..\STM32lib\stm32f10x_tim.c><stm32f10x_tim.c> 
+OPTFFF 6,41,1,0,0,0,0,0,<..\STM32lib\stm32f10x_usart.c><stm32f10x_usart.c> 
+OPTFFF 6,42,1,0,0,0,0,0,<..\STM32lib\stm32f10x_wwdg.c><stm32f10x_wwdg.c> 
+OPTFFF 6,43,1,0,0,0,0,0,<..\STM32lib\system_stm32f10x.c><system_stm32f10x.c> 
+OPTFFF 6,44,1,0,0,0,0,0,<..\STM32lib\core_cm3.c><core_cm3.c> 
+OPTFFF 6,45,1,0,0,0,0,0,<..\STM32lib\misc.c><misc.c> 
+OPTFFF 6,46,1,0,0,0,0,0,<..\STM32lib\stm32f10x_adc.c><stm32f10x_adc.c> 
+OPTFFF 6,47,1,0,0,0,0,0,<..\STM32lib\stm32f10x_bkp.c><stm32f10x_bkp.c> 
+OPTFFF 6,48,1,0,0,0,0,0,<..\STM32lib\stm32f10x_can.c><stm32f10x_can.c> 
+OPTFFF 6,49,1,0,0,0,0,0,<..\STM32lib\stm32f10x_crc.c><stm32f10x_crc.c> 
+OPTFFF 6,50,1,0,0,0,0,0,<..\STM32lib\stm32f10x_dac.c><stm32f10x_dac.c> 
+OPTFFF 6,51,1,0,0,0,0,0,<..\STM32lib\stm32f10x_dbgmcu.c><stm32f10x_dbgmcu.c> 
+OPTFFF 6,52,1,0,0,0,0,0,<..\STM32lib\stm32f10x_dma.c><stm32f10x_dma.c> 
+OPTFFF 6,53,1,0,0,0,0,0,<..\STM32lib\stm32f10x_exti.c><stm32f10x_exti.c> 
+OPTFFF 6,54,1,0,0,0,0,0,<..\STM32lib\stm32f10x_flash.c><stm32f10x_flash.c> 
+OPTFFF 6,55,1,0,0,0,0,0,<..\STM32lib\stm32f10x_fsmc.c><stm32f10x_fsmc.c> 
+OPTFFF 6,56,1,0,0,0,0,0,<..\STM32lib\stm32f10x_gpio.c><stm32f10x_gpio.c> 
+OPTFFF 6,57,1,0,0,0,0,0,<..\STM32lib\stm32f10x_i2c.c><stm32f10x_i2c.c> 
+OPTFFF 6,58,1,0,0,0,0,0,<..\STM32lib\stm32f10x_iwdg.c><stm32f10x_iwdg.c> 
+OPTFFF 6,59,1,0,0,0,0,0,<..\STM32lib\stm32f10x_pwr.c><stm32f10x_pwr.c> 
+OPTFFF 6,60,1,0,0,0,0,0,<..\STM32lib\stm32f10x_rcc.c><stm32f10x_rcc.c> 
+OPTFFF 6,61,1,0,0,0,0,0,<..\STM32lib\stm32f10x_rtc.c><stm32f10x_rtc.c> 
+OPTFFF 6,62,2,0,0,0,0,0,<..\STM32lib\StartUp\startup_stm32f10x_md.s><startup_stm32f10x_md.s> 
+
+
+TARGOPT 1, (Target 1)
+ ADSCLK=25000000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<..\Debug\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 255
+  OPTBL 0,(7)<DATASHTS\ST\STM32F105>
+  OPTBL 1,(Reference Manual)<DATASHTS\ST\STM32F10xxx.PDF>
+  OPTDL (SARMCM3.DLL)()(DARMSTM.DLL)(-pSTM32F107VC)(SARMCM3.DLL)()(TARMSTM.DLL)(-pSTM32F107VC)
+  OPTDBG 48126,7,()()()()()()()()()() (Segger\JL2CM3.dll)()()()
+  OPTKEY 0,(DLGDARM)((1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(100=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(1011=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=-1,-1,-1,-1,0)(121=-1,-1,-1,-1,0)(122=-1,-1,-1,-1,0)(123=-1,-1,-1,-1,0)(124=-1,-1,-1,-1,0)(125=-1,-1,-1,-1,0)(126=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(132=-1,-1,-1,-1,0)(133=-1,-1,-1,-1,0)(160=-1,-1,-1,-1,0)(161=-1,-1,-1,-1,0)(162=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(211=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(221=-1,-1,-1,-1,0)(230=-1,-1,-1,-1,0)(234=-1,-1,-1,-1,0)(231=-1,-1,-1,-1,0)(232=-1,-1,-1,-1,0)(233=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0)(151=-1,-1,-1,-1,0))
+  OPTKEY 0,(DLGTARM)((1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0))
+  OPTKEY 0,(ARMDBGFLAGS)(-T0)
+  OPTKEY 0,(DLGUARM)((106=-1,-1,-1,-1,0)(107=-1,-1,-1,-1,0))
+  OPTKEY 0,(JL2CM3)(-U20100214 -O14 -S0 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -N00("ARM CoreSight JTAG-DP") -D00(3BA00477) -L00(4) -N01("Unknown JTAG device") -D01(06418041) -L01(5) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TFE0 -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_512 -FS08000000 -FL080000)
+  OPTKEY 0,(UL2CM3)(-O14 -S0 -C0 -N00("ARM Cortex-M3") -D00(1BA00477) -L00(4) -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_512 -FS08000000 -FL080000)
+  OPTBB 0,0,19,1,134229282,0,0,0,0,1,<AppTask.c>()(\AppTask\19)
+  OPTWA 0,1,(RcvDataBuf)
+  OPTDF 0x92
+  OPTLE <>
+  OPTLC <>
+EndOpt
+
